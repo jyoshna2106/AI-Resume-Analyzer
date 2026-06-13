@@ -3,14 +3,14 @@ from .lex_attrs import LEX_ATTRS
 from .stop_words import STOP_WORDS
 
 
-class LowerSorbianDefaults(BaseDefaults):
+class AzerbaijaniDefaults(BaseDefaults):
     lex_attr_getters = LEX_ATTRS
     stop_words = STOP_WORDS
 
 
-class LowerSorbian(Language):
-    lang = "dsb"
-    Defaults = LowerSorbianDefaults
+class Azerbaijani(Language):
+    lang = "az"
+    Defaults = AzerbaijaniDefaults
 
 
-__all__ = ["LowerSorbian"]
+__all__ = ["Azerbaijani"]
